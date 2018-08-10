@@ -1,0 +1,22 @@
+doctype html
+html
+    head
+        title="XSCREEN PLAYER"
+        link(rel="stylesheet",href='/assets/css/app.css?v=0.0.2')
+        link(rel="stylesheet",href='/client/style.css')
+        link(rel="stylesheet",href='/assets/css/live.css')
+        meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no")
+        
+    body
+        div(id="overlay")
+
+        div(id="player")
+            div(id="offline")
+                div(class="info vertical")
+                    img(id="logo" src="/assets/images/logo.png")
+            div(id="loading")
+                div(class="info vertical")
+                    img(id="logo" src="/assets/images/logo.png")
+
+        script(src='/assets/js/app.js?v=0.0.2')
+
